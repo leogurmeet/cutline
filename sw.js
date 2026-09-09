@@ -1,5 +1,5 @@
-const SHELL_CACHE = 'cutline-shell-v2';
-const RUNTIME_CACHE = 'cutline-runtime-v2';
+const SHELL_CACHE = 'cutline-shell-v3';
+const RUNTIME_CACHE = 'cutline-runtime-v3';
 
 const SHELL_ASSETS = [
   './',
