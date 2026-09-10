@@ -1,5 +1,5 @@
-const SHELL_CACHE = 'cutline-shell-v3';
-const RUNTIME_CACHE = 'cutline-runtime-v3';
+const SHELL_CACHE = 'cutline-shell-v4';
+const RUNTIME_CACHE = 'cutline-runtime-v4';
 
 const SHELL_ASSETS = [
   './',
@@ -7,6 +7,9 @@ const SHELL_ASSETS = [
   './manifest.json',
   './icons/icon-192.png',
   './icons/icon-512.png',
+  './vendor/ffmpeg/worker.js',
+  './vendor/ffmpeg/const.js',
+  './vendor/ffmpeg/errors.js',
 ];
 
 self.addEventListener('install', (event) => {
